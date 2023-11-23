@@ -12,8 +12,8 @@ const TodoList: React.FC<TodoListProps> = ({ tasks }) => {
       <table className="table ">
         <thead>
           <tr>
-            <th>Id</th>
-            <th>Name</th>
+            <th>task</th>
+            <th>action</th>
           </tr>
         </thead>
         <tbody>
